@@ -27,6 +27,11 @@ const players: { icon: string; scheme: string }[] = [
     scheme:
       "intent:$url#Intent;package=com.mxtech.videoplayer.pro;S.title=$name;end",
   },
+  {
+    icon: "gizmovr",
+    scheme:
+      "gizmovr://type=video&url=$url",
+  },
 ];
 
 const Preview = () => {
