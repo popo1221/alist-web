@@ -32,6 +32,11 @@ const players: { icon: string; scheme: string }[] = [
     scheme:
       "gizmovr://type=video&url=$url",
   },
+  {
+    icon: "gizmovr",
+    scheme:
+      "$url",
+  },
 ];
 
 const Preview = () => {
