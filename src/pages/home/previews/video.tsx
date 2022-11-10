@@ -184,7 +184,7 @@ const Preview = () => {
           {(item) => {
             return (
               <Anchor
-                // external
+                external
                 href={convertURL(
                   item.scheme,
                   rawLink(objStore.obj, true),
